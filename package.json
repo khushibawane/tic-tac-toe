@@ -1,11 +1,9 @@
 {
   "homepage": "https://Shine8741.github.io/tic-tac-toe-game/",
-  
   "name": "tictac",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -14,13 +12,11 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  
   "dependencies": {
     "clsx": "^2.1.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
-  
   "devDependencies": {
     "@eslint/js": "^9.21.0",
     "@types/react": "^19.0.10",
